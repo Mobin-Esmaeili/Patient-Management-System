@@ -100,7 +100,7 @@ const AppointmentForm = ({
     <>
       <Form {...form}>
         <form
-        
+        // @ts-ignore
           onSubmit={form.handleSubmit(onSubmit)}
           className="space-y-6 flex-1"
         >
